@@ -1,6 +1,6 @@
-<h1 style="text-align: center;">
-    <img src=".asset/logo.png" alt="Logo" style="vertical-align: middle; height: 200px;">
-</h1>
+<p align="center">
+    <img src=".asset/logo.png" width="15%"> <br>
+</p>
 
 # 🔎 Uncertainty-o
 
@@ -11,27 +11,32 @@
 
 ## ⚡ Overview
 
-![](.asset/overview.png)
+<p align="center">
+    <img src=".asset/overview.png" width="60%"> <br>
+</p>
 
 ## 🔥 News
 
 - 2025.3.11: 🐣 Source code of [Uncertainty-o](https://github.com/Ruiyang-061X/Uncertainty-o) is released!
 
 ## 📋 Contents
-- [✏️ Method](#-method)
-- [🛠️ Install](#-install)
+- [✏️ Method](#%EF%B8%8F-method)
+- [🛠️ Install](#%EF%B8%8F-install)
 - [💻 Dependency](#-dependency)
 - [📚 Data Preparation](#-data-preparation)
 - [📈 Run](#-run)
 - [🏄 Examples](#-examples)
-- [⌨️ Code Structure](#-code-structure)
+- [⌨️ Code Structure](#%EF%B8%8F-code-structure)
 - [✨ Acknowledgement](#-acknowledgement)
 - [📎 Citation](#-citation)
 
 ## ✏️ Method
 
-![](.asset/method.png)
-Pipeline of Our Uncertainty-o. Given a multimodal prompt and large multimodal models, we perform multimodal prompt perturbation to generate diverse responses. Due to the inherent epistemic uncertainty of these models under perturbation, varied responses are typically obtained. To quantify this uncertainty, we apply semantic clustering on the collected responses and compute their entropy. Specifically, responses are grouped into semantically similar clusters, and the entropy across these clusters is calculated as the final uncertainty measure. Higher entropy indicates greater variability in responses, suggesting lower confidence, while lower entropy reflects higher consistency and thus higher confidence.
+<p align="center">
+    <img src=".asset/method.png" width="60%"> <br>
+</p>
+
+**Pipeline of Our Uncertainty-o.** Given a multimodal prompt and large multimodal models, we perform multimodal prompt perturbation to generate diverse responses. Due to the inherent epistemic uncertainty of these models under perturbation, varied responses are typically obtained. To quantify this uncertainty, we apply semantic clustering on the collected responses and compute their entropy. Specifically, responses are grouped into semantically similar clusters, and the entropy across these clusters is calculated as the final uncertainty measure. Higher entropy indicates greater variability in responses, suggesting lower confidence, while lower entropy reflects higher consistency and thus higher confidence.
 
 ## 🛠️ Install
 
@@ -92,7 +97,9 @@ bash run/uncertainty_aware_cot.sh;
 
 - Uncertainty-o successfully detects both comprehension and generation hallucination:
 
-![](.asset/qualitative_case.png)
+<p align="center">
+    <img src=".asset/qualitative_case.png" width="100%"> <br>
+</p>
 
 ## ⌨️ Code Structure
 
