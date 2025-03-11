@@ -1,5 +1,5 @@
 <p align="center">
-    <img src=".asset/logo.png" width="15%"> <br>
+    <img src=".asset/logo.png" width="20%"> <br>
 </p>
 
 # 🔎 Uncertainty-o
@@ -12,7 +12,7 @@
 ## ⚡ Overview
 
 <p align="center">
-    <img src=".asset/overview.png" width="60%"> <br>
+    <img src=".asset/overview.png" width="80%"> <br>
 </p>
 
 ## 🔥 News
@@ -33,7 +33,7 @@
 ## ✏️ Method
 
 <p align="center">
-    <img src=".asset/method.png" width="60%"> <br>
+    <img src=".asset/method.png" width="80%"> <br>
 </p>
 
 **Pipeline of Our Uncertainty-o.** Given a multimodal prompt and large multimodal models, we perform multimodal prompt perturbation to generate diverse responses. Due to the inherent epistemic uncertainty of these models under perturbation, varied responses are typically obtained. To quantify this uncertainty, we apply semantic clustering on the collected responses and compute their entropy. Specifically, responses are grouped into semantically similar clusters, and the entropy across these clusters is calculated as the final uncertainty measure. Higher entropy indicates greater variability in responses, suggesting lower confidence, while lower entropy reflects higher consistency and thus higher confidence.
