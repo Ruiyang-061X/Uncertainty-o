@@ -4,7 +4,7 @@
 
 # 🔎 Uncertainty-o
 
-[Ruiyang Zhang](https://ruiyang-061x.github.io/), [Hu Zhang](https://huzhangcs.github.io/), [Hao Fei](https://haofei.vip/), [Zehdong Zheng*](https://www.zdzheng.xyz/)
+[Ruiyang Zhang](https://ruiyang-061x.github.io/), [Hu Zhang](https://huzhangcs.github.io/), [Hao Fei](https://haofei.vip/), [Zhedong Zheng*](https://www.zdzheng.xyz/)
 
 **[Website](https://Uncertainty-o.github.io/)** | **[Paper]()** | **[Code](https://github.com/Ruiyang-061X/Uncertainty-o)**
 
