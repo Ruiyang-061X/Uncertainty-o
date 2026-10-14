@@ -146,6 +146,7 @@ If you find our work useful for your research and application, please cite using
 @article{zhang2025uncertainty,
   title={Uncertainty-o: One Model-agnostic Framework for Unveiling Epistemic Uncertainty in Large Multimodal Models},
   author={Zhang, Ruiyang and Zhang, Hu and Hao Fei, and Zheng, Zhedong},
-  year={2025}
+  journal={EMNLP},
+  year={2026}
 }
 ```
